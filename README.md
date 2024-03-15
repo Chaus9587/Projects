@@ -1,2 +1,3 @@
 # Projects
-Mainly front-end.
+Mainly front-end projects.
+ 
