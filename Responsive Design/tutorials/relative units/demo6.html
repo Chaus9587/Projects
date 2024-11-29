@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div1 {
+            background-color: skyblue;
+            width: calc(80px + 2vw);
+            height: calc(80px + 2vh);
+        }
+        .div2 {
+            background-color: cornflowerblue;
+            width: calc(80px + 4vw);
+            height: calc(80px + 4vh);
+        }
+        .div3 {
+            background-color: lightcoral;
+            width: calc(120px + 6vw);
+            height: calc(120px + 6vh);
+        }
+        .div4 {
+            background-color: coral;
+            width: calc(120px + 3.5vw);
+            height: calc(120px + 3.5vh);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="div1">div1</div>
+    <div class="div2">div2</div>
+    <div class="div3">div3</div>
+    <div class="div4">div4</div>
+    <p>Adjust the width of the browser to see the effect.</p>
+    <p id="width"></p>
+    <p id="height"></p>
+    <p id="orientation"></p>
+    <button type="button" id="button">Close this window</button>
+    <script src="../../js/tutorials-demo.js"></script>
+</body>
+</html>
